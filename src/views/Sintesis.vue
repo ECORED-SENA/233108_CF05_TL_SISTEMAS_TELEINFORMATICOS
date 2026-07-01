@@ -2,11 +2,11 @@
   .curso-main-container.pb-3
     BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+      p En resumen, los recursos de la red de datos en las organizaciones operan mediante la interconexión de dispositivos a través de redes de comunicaciones, utilizando componentes como dispositivos, medios de transmisión y protocolos. La conectividad de la red se establece mediante diferentes topologías, y la estructura de la red puede ser local o extensa. Los inventarios activos de red son esenciales para gestionar y mantener la red en óptimas condiciones. A continuación, veamos al respecto un mapa que resume esto:
       .row.justify-content-center
-        .col-lg-10.mb-5.bgs.p-4.brad
+        .col-lg-12.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+            img(src="@/assets/curso/sintesis.svg", alt="Imagen que muestra síntesis del componente formativo, indicando los aspectos que se relacionan con los recursos de la red de datos en las organizaciones, los cuales son las redes de comunicaciones, los componentes de una red de datos, la conectividad de la red, la estructura de una red de datos y los inventarios de activos de red.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
